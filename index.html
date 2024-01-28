@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="css">
+        <h1>CSS SELECTORS TABLE REFERENCE</h1>
+        <h2 class='tag'>Table Tags</h2>
+    </div>
+
+    <div class= "Table">
+        <table>
+            <thead class='head'>
+                <tr>
+                    <th scope="col"> Syntax </th>
+                    <th scope="col"> Name </th>
+                    <th scope="col"> Description </th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td class="code">selector {
+                        declaration
+                      }</td>
+                    <td>Type Selector</td>
+                    <td>The type selector matches the type of the element in the HTML document.</td>
+                </tr>
+
+                <tr>
+                    <td class="code">* { declarations }</td>
+                    <td>Universal Selector</td>
+                    <td>The universal selector selects all elements of any type.</td>
+                </tr>
+
+                <tr>
+                    <td class="code">
+                        .class name { declarations }
+                    </td>
+                    <td>Class Selector</td>
+                    <td>Selects elements of a specific class</td>
+                </tr>
+                
+                <tr>
+                    <td class="code">
+                        class_name1{ declarations }<br>
+                        class_name2{ declarations }
+
+                        <p><br>Then, you could include both of these classes on one HTML element like this:</p><br>
+                
+                        &lt;element class= 'class_name1 class_name 2'&gt;
+                    </td>
+                    <td>Multiple Classes</td>
+                    <td>This enables us to mix and match CSS classes.</td>
+                </tr>
+
+                <tr>
+                    <td class="code">
+                        #id {
+                            declarations;
+                          }
+                    </td>
+                    <td>ID Selector</td>
+                    <td>Uses the ID attribute of an HTML element to select one unique element on a page.</td>
+                </tr>
+
+                <tr>
+                    <td class="code">
+                        [attribute]{
+                            declaractions
+                        }
+                    </td>
+                    <td>Attribute Seelector</td>
+                    <td>The attribute selector can be used to target HTML elements that already contain attributes.</td>
+                </tr>
+
+                <tr>
+                    <td class="code">
+                        selector:pseudo-class {
+                            property: value;
+                          }
+                    </td>
+                    <td>Pseudo-Class Selectors</td>
+                    <td>Used to add styles to selectors, but only when those selectors meet certain conditions.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+<footer>
+    <section class="credits">
+        <p>Author: Ochiba J. <br>2024</p>
+    </section>
+</footer>
+</html>
